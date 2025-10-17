@@ -1,0 +1,15 @@
+{
+  "DESIGN_NAME": "cv32e40p_core",
+  "VERILOG_FILES": [
+    "dir::src/converted.v"
+  ],
+  "CLOCK_PORT": "clk_i",
+  "CLOCK_NET": "clk_i",
+  "CLOCK_PERIOD": 100,
+  "FP_CORE_UTIL": 40,
+  "GLB_RT_OVERFLOW_ITERS": 100,
+  "GLB_RT_ANT_ITERS": 5,
+  "GLB_RT_MAX_DIODE_INS_ITERS": 3,
+  "GLB_RT_ALLOW_CONGESTION": 1,
+  "GLB_RT_ADJUSTMENT": 0.2
+}

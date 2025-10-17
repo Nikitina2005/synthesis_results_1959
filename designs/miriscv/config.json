@@ -1,0 +1,10 @@
+{
+    "DESIGN_NAME": "miriscv_core",
+    "VERILOG_FILES": [
+        "dir::src/converted.v"
+    ],
+    "CLOCK_PORT": "clk_i",
+    "CLOCK_NET": "clk_i",
+    "CLOCK_PERIOD": 100,
+    "FP_CORE_UTIL": 30
+}

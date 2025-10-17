@@ -1,0 +1,16 @@
+{
+  "DESIGN_NAME": "sm_top",
+  "VERILOG_FILES": [
+    "dir::src/sm_hex_display.v",
+	"dir::src/sm_register.v",
+	"dir::src/sm_rom.v",
+	"dir::src/sm_top.v",
+    "dir::src/sr_cpu.v"
+  ],
+  "VERILOG_INCLUDE_DIRS": [
+        "dir::src"
+  ],
+  "CLOCK_PORT": "clkIn",
+  "CLOCK_NET": "clkIn",
+  "CLOCK_PERIOD": 100
+}

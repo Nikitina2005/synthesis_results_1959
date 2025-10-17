@@ -1,0 +1,22 @@
+{
+  "DESIGN_NAME": "riscv_crypto_fu",
+  "VERILOG_FILES": [
+    "dir::src/riscv_crypto_fu_saes32.v",
+	"dir::src/riscv_crypto_fu_ssm3.v",
+	"dir::src/riscv_crypto_fu.v",
+	"dir::src/riscv_crypto_fu_saes32_ssm4.v",
+	"dir::src/riscv_crypto_fu_ssm4.v",
+	"dir::src/riscv_crypto_fu_aes_mix_columns.v",
+	"dir::src/riscv_crypto_fu_saes64.v",
+	"dir::src/riscv_crypto_fu_lut4.v",
+	"dir::src/riscv_crypto_fu_sboxes.v",
+	"dir::src/riscv_crypto_fu_rv32.v",
+	"dir::src/riscv_crypto_fu_ssha256.v",
+	"dir::src/riscv_crypto_fu_rv64.v",
+	"dir::src/riscv_crypto_fu_ssha512.v" 
+  ],
+  "CLOCK_PORT": "g_clk",
+  "CLOCK_NET": "g_clk",
+  "CLOCK_PERIOD": 100,
+  "FP_CORE_UTIL": 30
+}

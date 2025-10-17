@@ -1,0 +1,13 @@
+{
+    "DESIGN_NAME": "scr1_core_top",
+    "VERILOG_FILES": [
+        "dir::src/converted.v"
+    ],
+    "VERILOG_INCLUDE_DIRS": [
+        "dir::src/includes"
+    ],
+    "CLOCK_PORT": "clk",
+    "CLOCK_NET": "clk",
+    "CLOCK_PERIOD": 100,
+    "FP_CORE_UTIL": 30
+}

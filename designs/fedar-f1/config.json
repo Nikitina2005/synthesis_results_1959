@@ -1,0 +1,13 @@
+{
+  "DESIGN_NAME": "CPU",
+  "VERILOG_FILES": [
+    "dir::src/CPU.v"
+  ],
+  "VERILOG_INCLUDE_DIRS": [
+        "dir::src"
+  ],
+  "CLOCK_PORT": "CLK",
+  "CLOCK_NET": "CLK",
+  "CLOCK_PERIOD": 100,
+  "FP_CORE_UTIL": 30
+}

@@ -1,0 +1,23 @@
+{
+  "DESIGN_NAME": "darkriscv",
+  "VERILOG_FILES": [
+    "dir::src/darkbridge.v",
+    "dir::src/darkio.v",
+    "dir::src/darkpll.v",
+    "dir::src/darkriscv.v",
+    "dir::src/darkspi.v",
+    "dir::src/darkcache.v",
+    "dir::src/darkmac.v",
+    "dir::src/darkram.v",
+    "dir::src/darksocv.v",
+    "dir::src/darkuart.v"
+  ],
+  "VERILOG_INCLUDE_DIRS": [
+    "dir::src/lib",
+    "dir::src/rtl"
+  ],
+  "CLOCK_PORT": "CLK",
+  "CLOCK_NET": "CLK",
+  "CLOCK_PERIOD": 100,
+  "FP_CORE_UTIL": 40
+}

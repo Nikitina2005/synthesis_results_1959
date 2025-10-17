@@ -1,0 +1,33 @@
+{
+  "DESIGN_NAME": "hazard3_core",
+  "VERILOG_FILES": [
+	"dir::src/hazard3_core.v",
+	"dir::src/hazard3_cpu_1port.v",
+	"dir::src/hazard3_cpu_2port.v",
+	"dir::src/arith/hazard3_alu.v",
+	"dir::src/arith/hazard3_branchcmp.v",
+	"dir::src/arith/hazard3_mul_fast.v",
+	"dir::src/arith/hazard3_muldiv_seq.v",
+	"dir::src/arith/hazard3_onehot_encode.v",
+	"dir::src/arith/hazard3_onehot_priority.v",
+	"dir::src/arith/hazard3_onehot_priority_dynamic.v",
+	"dir::src/arith/hazard3_priority_encode.v",
+	"dir::src/arith/hazard3_shift_barrel.v",
+	"dir::src/hazard3_csr.v",
+	"dir::src/hazard3_decode.v",
+	"dir::src/hazard3_frontend.v",
+	"dir::src/hazard3_instr_decompress.v",
+	"dir::src/hazard3_irq_ctrl.v",
+	"dir::src/hazard3_pmp.v",
+	"dir::src/hazard3_power_ctrl.v",
+	"dir::src/hazard3_regfile_1w2r.v",
+	"dir::src/hazard3_triggers.v"
+  ],
+  "VERILOG_INCLUDE_DIRS": [
+    "dir::src"
+  ],
+  "CLOCK_PORT": "clk",
+  "CLOCK_NET": "clk",
+  "CLOCK_PERIOD": 100,
+  "FP_CORE_UTIL": 30
+}

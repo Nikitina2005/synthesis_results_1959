@@ -1,0 +1,9 @@
+{
+  "DESIGN_NAME": "FemtoRV32",
+  "VERILOG_FILES": [
+    "dir::src/femtorv32_quark.v"
+  ],
+  "CLOCK_PORT": "clk",
+  "CLOCK_NET": "clk",
+  "CLOCK_PERIOD": 100
+}

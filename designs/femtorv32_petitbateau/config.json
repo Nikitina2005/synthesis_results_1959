@@ -1,0 +1,10 @@
+{
+  "DESIGN_NAME": "FemtoRV32",
+  "VERILOG_FILES": [
+    "dir::src/femtorv32_petitbateau.v"
+  ],
+  "CLOCK_PORT": "clk",
+  "CLOCK_NET": "clk",
+  "CLOCK_PERIOD": 100,
+  "FP_CORE_UTIL": 10
+}
