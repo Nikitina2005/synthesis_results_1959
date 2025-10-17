@@ -1,0 +1,10 @@
+read_liberty -max /home/alexledi/OpenLane/designs/picorv32/src/sky130_fd_sc_hd__fast.lib
+read_liberty -min /home/alexledi/OpenLane/designs/picorv32/src/sky130_fd_sc_hd__slow.lib
+read_verilog /home/alexledi/OpenLane/designs/picorv32/runs/RUN_2025.05.07_11.43.54/results/routing/picorv32.pnl.v 
+read_verilog /home/alexledi/OpenLane/designs/picorv32/runs/RUN_2025.05.07_11.43.54/results/routing/picorv32.nl.v
+link_design picorv32
+read_sdc /home/alexledi/OpenLane/designs/picorv32/runs/RUN_2025.05.07_11.43.54/results/cts/picorv32.sdc 
+read_spef /home/alexledi/OpenLane/designs/picorv32/runs/RUN_2025.05.07_11.43.54/results/final/spef/picorv32.spef 
+read_spef /home/alexledi/OpenLane/designs/picorv32/runs/RUN_2025.05.07_11.43.54/results/routing/mca/spef/picorv32.nom.spef 
+set_propagated_clock [all_clocks]
+report_checks
