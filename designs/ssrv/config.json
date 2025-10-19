@@ -1,0 +1,23 @@
+{
+  "DESIGN_NAME": "ssrv_top",
+  "VERILOG_FILES": [
+    "dir::src/alu.v",
+	"dir::src/define_para.v",
+	"dir::src/instrbits.v",
+	"dir::src/lsu.v",
+	"dir::src/mprf.v",
+	"dir::src/predictor.v",
+	"dir::src/ssrv_top.v",
+	"dir::src/define.v",
+	"dir::src/include_func.v",
+	"dir::src/instrman.v",
+	"dir::src/membuf.v",
+	"dir::src/mul.v",
+	"dir::src/schedule.v",
+	"dir::src/sys_csr.v"
+  ],
+  "CLOCK_PORT": "clk",
+  "CLOCK_NET": "clk",
+  "CLOCK_PERIOD": 100,
+  "FP_CORE_UTIL": 10
+}
