@@ -1,4 +1,6 @@
-Ссылка на README.md проекта: https://github.com/RomeoMe5/RISC-V_cores_database/blob/master/designs/README.md
+Ссылка на README.md проекта:
+
+https://github.com/RomeoMe5/RISC-V_cores_database/blob/master/designs/README.md
 
 Ниже приведено краткое описание открытой платформы автоматизированного проектирования интегральных схем OpenLane, которая использовалась в проекте.
 
