@@ -45,7 +45,7 @@
 
 ### Распределение по стране-разработчику
 <p align="center">
-  <img width="1572" height="1336" alt="image" src="https://github.com/user-attachments/assets/27625445-b307-45f3-9c6b-4471caa3d58c" />
+  <img width="512" height="435" alt="image" src="https://github.com/user-attachments/assets/27625445-b307-45f3-9c6b-4471caa3d58c" />
 </p>  
 <p align="center">
   Рисунок 1 — Распределение IP-ядер по стране-разработчику.
@@ -55,7 +55,7 @@
 
 ### Распределение по языку HDL
 <p align="center">
-  <img width="1600" height="1417" alt="image" src="https://github.com/user-attachments/assets/9e8b70d6-29c9-482e-aa5a-a1738fe8344e" />
+  <img width="512" height="453" alt="image" src="https://github.com/user-attachments/assets/9e8b70d6-29c9-482e-aa5a-a1738fe8344e" />
 </p>  
 <p align="center">
   Рисунок 2 — Распределение IP-ядер по языку HDL.
