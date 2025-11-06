@@ -217,5 +217,6 @@
 
 Баланс между производительностью и ресурсами делает его лучшим выбором для компактного и быстрого SoC.
 
+## Публикация
 
-
+https://docs.google.com/document/d/1DfkzaS-3GZpxUK5YO4ZqCnEcHI4FExiFb9hzqEoKfpQ/edit?usp=sharing
